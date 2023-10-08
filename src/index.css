@@ -299,7 +299,6 @@ ul {
 }
 
 .board {
-  width: 300px;
   display: grid;
   place-items: center;
 }
@@ -309,8 +308,8 @@ ul {
   height: 100%;
 }
 .square {
-  width: 100px;
-  min-height: 100px;
+  width: 5rem;
+  min-height: 5rem;
   border: 1px solid black;
   background: lemonchiffon;
   cursor: pointer;
