@@ -327,9 +327,13 @@ ul {
 .status-text {
   letter-spacing: var(--letter-spacing);
   font-size: 1.25rem;
+  text-align: center;
 }
 .restart-btn {
   color: var(--white);
   font-size: 1.5rem;
   font-weight: bold;
+  width: auto;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem;
 }

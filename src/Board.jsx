@@ -41,8 +41,12 @@ const Board = () => {
 
   let state;
   let winner = calculateWinner(squares);
-  if (!winner) {
+  const full = squares.every((x) => x !== null);
+
+  if (!winner && !full) {
     state = `Next player is ${isX ? 'X' : 'O'}`;
+  } else if (!winner && full) {
+    state = `Draw`;
   } else {
     state = `Winner is ${winner}`;
   }
